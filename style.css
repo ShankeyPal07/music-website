@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    height: 8vh;
+    background-color: #1B0058;
+    color: white;
+
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em;
+}
+
+.main-container {
+    background-image: url(/images/hero_image.png);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.about ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+}
+
+.about li {
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.main-container h1 {
+    font-size: 5rem;
+}
+
+.main-container h3 {
+    font-size: 2rem;
+}
+
+.main-container p {
+    width: 60%;
+    text-align: center;
+}
+
+.container-2 iframe {
+    height: 2vh;
+    border: 1px solid black;
+    width: 1%;
+}
+
+.text-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.music-sec {
+    height: 100vh;
+    background-color: #281154;
+}
+
+.container-2 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2.5rem;
+
+}
+
+.container-2 p {
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.container-2 h1,
+h2 {
+    font-size: 2rem;
+}
+
+.svg {
+    margin: 1rem;
+}
+
+.ipad-img {
+    position: absolute;
+    top: 150%;
+    left: 20%;
+}
+
+.decs {
+    margin-top: 25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.decs P {
+    width: 70%;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #281154;
+    border: none;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 2px;
+    font-size: 1.2rem;
+
+
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mac{
+    margin-top: 5rem;
+}
+
+.concert{
+    background-image: url(./images/video.png);
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    flex-direction: column ;
+    gap: 2rem;
+text-align: center;
+margin-top: 3rem;
+
+}
+
+.concert {
+    font-size: 1.5rem;
+    
+}
+
+
+.gift{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+.gft-desc{
+    width: 50%;
+    gap: 1rem;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.footer{
+    justify-content: space-around;
+    margin-top: 3rem;
+    background-color: #281154;
+    padding: 2rem;
+    color: white;
+}
+
+.item li{
+    list-style: none;
+}
+
+.copyright{
+    background-color: #311b59;
+    height: 6vh;
+    color: white;
+
+}
+
+
